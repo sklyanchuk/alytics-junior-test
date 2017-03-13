@@ -3,5 +3,5 @@ var question = {
 };
 
 (function answer(question) {
-  console.log(parseInt(Object.keys(question)[0]));
+  console.log(parseInt(Object.keys(question)[0], 10));
 })(question);
