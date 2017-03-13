@@ -6,9 +6,9 @@
   border-radius: 5px;
   list-style: none;
  }
- .tasks {
+.tasks {
   counter-reset: tasks;
- }
+}
 .task::before {
   counter-increment: tasks;
   content: counter(tasks) ".";
