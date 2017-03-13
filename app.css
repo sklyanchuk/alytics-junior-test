@@ -5,7 +5,7 @@
   border: 2px solid green;
   border-radius: 5px;
   list-style: none;
- }
+}
 .tasks {
   counter-reset: tasks;
 }
